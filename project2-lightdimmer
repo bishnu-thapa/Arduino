@@ -1,0 +1,16 @@
+/* http://arduino.cc/en/Reference/AnalogWrite
+by Tom Igoe http://itp.nyu.edu/physcomp/Labs/AnalogIn
+This code is part of the public domain */
+
+int potPin = 0; 
+int potValue = 0; 
+int led = 9; 
+void setup() 
+{ 
+pinMode(led, OUTPUT);
+} 
+void loop() 
+{ 
+potValue = analogRead(potPin); 
+analogWrite(led, potValue/4); delay(10); 
+}
