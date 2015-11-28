@@ -16,12 +16,13 @@ void setup() {
   // set up the LCD's number of columns and rows: 
   lcd.begin(16, 2);
   // Print a message to the LCD.
-  lcd.print("Torbay Tech Jam");
-  lcd.setCursor(0,1);
-  lcd.print("November 2015");
+  lcd.setCursor(0,0); //set top row
+  lcd.print("Torbay Tech Jam"); // print text
+  lcd.setCursor(0,1); // bottom row
+  lcd.print("August 2015"); // print text
   delay(2000);
 }
- 
+
 void loop() {
   // scroll 20 positions (string length) to the left 
   // to move it offscreen left:
