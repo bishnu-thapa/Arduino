@@ -1,6 +1,6 @@
 
-int upspeed = 500;
-int downspeed = 500;
+int upspeed = 100;
+int downspeed = 50;
 void setup() {
 for (int i = 2; i < 11; i++) {
 pinMode(i, OUTPUT);

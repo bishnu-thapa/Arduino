@@ -18,7 +18,7 @@ void setup() {
   // Print a message to the LCD.
   lcd.print("Torbay Tech Jam");
   lcd.setCursor(0,1);
-  lcd.print("November 2015");
+  lcd.print("January 2016");
   delay(2000);
 }
  
