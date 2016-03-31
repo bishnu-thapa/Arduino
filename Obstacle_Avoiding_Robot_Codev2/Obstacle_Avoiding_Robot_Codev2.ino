@@ -15,8 +15,8 @@ void setup()
     Serial.println("Motor test!");
     pinMode(trigPin, OUTPUT);// set the trig pin to output (Send sound waves)
     pinMode(echoPin, INPUT);// set the echo pin to input (recieve sound waves)
-    motor1.setSpeed(255); //set the speed of the motors, between 0-255
-    motor2.setSpeed(255);  
+    motor1.setSpeed(200); //set the speed of the motors, between 0-255
+    motor2.setSpeed(200);  
     }
  
 void loop()
@@ -32,7 +32,7 @@ void loop()
     duration = pulseIn(echoPin, HIGH);
     distance = (duration/2) / 29.1;// convert the distance to centimeters.
   
-     if (distance < 10)/*if there's an obstacle 5 centimers, ahead, do the following: */ 
+     if (distance < 15)/*if there's an obstacle 5 centimers, ahead, do the following: */ 
           {   
           Serial.println ("Close Obstacle detected!" );
           Serial.println ("Obstacle Details:");
