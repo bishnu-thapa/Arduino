@@ -35,12 +35,12 @@ void loop() {
     // turn off LEDs
     
  {  
-if(templed >= 19);  // this number depends soil moisture
+if(templed >= 19);  // this number depends temperature
 digitalWrite(templed, HIGH);//turn led ON
 
 }
  {  
-if(humidled >= 47);  // this number depends soil moisture
+if(humidled >= 47);  // this number depends humidity
 digitalWrite(humidled, HIGH);//turn led ON
 delay(1000);
 }
@@ -48,3 +48,4 @@ delay(1000);
   }
 }
 
+//temp and humidity
