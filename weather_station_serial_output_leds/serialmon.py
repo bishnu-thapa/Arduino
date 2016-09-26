@@ -25,7 +25,7 @@
 #http://shallowsky.com/blog/hardware/ardmonitor.html
 import serial
 
-ser = serial.Serial("/dev/ttyUSB0", 9600)
+ser = serial.Serial("/dev/ttyS4", 9600)
 while True:
     print ser.readline()
     

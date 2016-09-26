@@ -252,10 +252,13 @@ const uint8_t font[] PROGMEM = {0x00, 0x00, 0x00, 0x00, 0x00,// (space)
     
 //const uint8_t txt_message1[] PROGMEM =  {" Congratulations! you have managed to complete the first phase of the Torbay TechJam mini matrix sign builder workshop at Paignton Library    "};
 
-const uint8_t txt_message1[] PROGMEM =  {" Welcome to the Paignton Library Tech Jam 9th April 2016. Sign up for our mini matrix sign building workshop and you could build a mini matrix sign like this one for £15.    "};
+//const uint8_t txt_message1[] PROGMEM =  {" Welcome to the Paignton Library Tech Jam 9th April 2016. Sign up for our mini matrix sign building workshop and you could build a mini matrix sign like this one for £15.    "};
 
-//const uint8_t txt_message1[] PROGMEM =  {" L E D Matrix Test Message 1  "};
+const uint8_t txt_message1[] PROGMEM =  {"   Welcome to the September Tech jam,  "};
 
+//const uint8_t txt_message1[] PROGMEM =  {"   Sherwell  Valley  Primary  School - Digital   Leaders  Club,  "};
+
+//const uint8_t txt_message1[] PROGMEM =  {"   Priory School - Year 4 - Computer project demonstration  "};
 
 
 void bitmap(const uint8_t * ptr)

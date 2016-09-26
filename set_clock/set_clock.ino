@@ -45,10 +45,10 @@ void setup()
   // Simply follow the tutorial and upload the LCD code to avoid overwriting the correct time with this time again.
   //
   second = 0;
-  minute = 16;
-  hour = 12;
-  dayOfWeek = 2; // 1 = monday 2 = tuesday etc
-  dayOfMonth = 26;
+  minute = 20;
+  hour = 20;
+  dayOfWeek = 4; // 1 = monday 2 = tuesday etc
+  dayOfMonth = 28;
   month = 4;
   year = 16;
   setDateDs1307(second, minute, hour, dayOfWeek, dayOfMonth, month, year);
